@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>周鑫 Zhou Xin | AIPM Introduction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">筱涵<span class="ai-text">.AI</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#projects">作品</a></li>
+                <li><a href="#skills">技能</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 欢迎文本区域 -->
+    <section id="welcome" class="welcome-section">
+        <div class="container">
+            <h1>你好 欢迎来到周筱涵的个人主页😊</h1>
+            <p>You can call me Jensen，Nice to meet You!</p>
+            <p>有任何想咨询的问题均可扫描下方二维码，我将尽我所能为您解答</p>
+        </div>
+    </section>
+
+    <!-- 个人介绍模块 -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <!-- 上半区域 -->
+            <div class="about-top">
+                <div class="intro-text">
+                    <h3 class="meet-me">先简单认识一下我吧</h3>
+                </div>
+                <div class="about-images">
+                    <!-- 联系方式 -->
+                    <div class="card contact-info">
+                        <h3>联系方式</h3>
+                        <div class="card-content">
+                            <div class="image-container">
+                                <img src="最新二维码.jpg" alt="微信二维码">
+                            </div>
+                            <p class="image-desc">扫描二维码添加微信</p>
+                            <div class="divider"></div>
+                            <div class="bottom-element">
+                                <p>电话：172-6568-5624</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 欣赏美照 -->
+                    <div class="card photo-gallery">
+                        <h3>欣赏美照</h3>
+                        <div class="card-content">
+                            <div class="image-container custom-image-container">
+                                <div class="image-wrapper">
+                                    <div class="image-slide" data-index="0">
+                                        <img src="旅游.jpg" alt="照片1">
+                                    </div>
+                                    <div class="image-slide" data-index="1">
+                                        <img src="证件照.jpg" alt="照片2">
+                                    </div>
+                                    <div class="image-slide" data-index="2">
+                                        <img src="什刹海.jpg" alt="照片3">
+                                    </div>
+                                    <div class="image-slide" data-index="3">
+                                        <img src="花.jpg" alt="照片4">
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="image-desc" id="photo-caption">人生第一次出去旅游，很喜欢，于是当成了手机壁纸</p>
+                            <div class="divider"></div>
+                            <div class="bottom-element">
+                                <div class="gallery-controls">
+                                    <button class="gallery-btn prev">&lt;</button>
+                                    <div class="photo-textbox">
+                                        <span class="photo-description">旅游</span>
+                                    </div>
+                                    <button class="gallery-btn next">&gt;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 收款码 -->
+                    <div class="card payment-info">
+                        <h3>收款码</h3>
+                        <div class="card-content">
+                            <div class="image-container">
+                                <img src="收款码.jpg" alt="收款码">
+                            </div>
+                            <p class="image-desc">扫描二维码进行支付</p>
+                            <div class="divider"></div>
+                            <div class="bottom-element">
+                                <p>不嫌多不嫌少</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 下半区域 -->
+            <div class="about-bottom">
+                <div class="info-section">
+                    <h3>星座&MBTI</h3>
+                    <div class="personality-tag">
+                        <span class="tag">金牛座</span>
+                        <span class="tag">ENTJ</span>
+                    </div>
+                </div>
+                <div class="info-section">
+                    <h3>愿望&个性签名</h3>
+                    <p>萬事如意 好事多磨</p>
+                    <p>希望我们都有光明的未来</p>
+                </div>
+                <div class="info-section">
+                    <h3>教育经历</h3>
+                    <p>西南大学 - 物流管理专业 - 2026年毕业，现大四在读</p>
+                </div>
+                <div class="info-section">
+                    <h3>实习经验</h3>
+                    <p class="experience-note">如您有任何简历修改、面试辅导、心里沟通等想法，请直接加爆我的微信，致力于将积极乐观心态分享给每一个人</p>
+                    <div class="company-cards">
+                        <div class="company-card">
+                            <div class="company-logo">
+                                <img src="美团.png" alt="美团">
+                            </div>
+                            <h4>美团</h4>
+                            <div class="company-desc">
+                                <p>利用workflow搭建AI外呼机制，实现外呼1w+/天，解决外呼超30亿痛点，降低招聘成本30%</p>
+                                <div class="tag-group">
+                                    <span class="company-tag">AI外呼</span>
+                                    <span class="company-tag">GN06</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="company-card">
+                            <div class="company-logo">
+                                <img src="京东.png" alt="京东">
+                            </div>
+                            <h4>京东</h4>
+                            <div class="company-desc">
+                                <p>负责京东科技ToB智能客服“JoyApex”的搭建，为产研团队节省2.5人力/天</p>
+                                <div class="tag-group">
+                                    <span class="company-tag">RAG</span>
+                                    <span class="company-tag">营销中台</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="company-card">
+                            <div class="company-logo">
+                                <img src="快手.png" alt="快手">
+                            </div>
+                            <h4>快手</h4>
+                            <div class="company-desc">
+                                <p>负责生活服务AI产品中心“Π”数字人的运营管理，策略AIGC生成动态“猜你想问”提升开口率、留资率</p>
+                                <div class="tag-group">
+                                    <span class="company-tag">商业化</span>
+                                    <span class="company-tag">AIGC</span>
+                                    <span class="company-tag">数字人</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品展示模块 -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>我的作品</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="ai">AI 项目</button>
+                <button class="filter-btn" data-filter="product">产品设计</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="ai">
+                    <h3>AI外呼系统</h3>
+                    <p>设计并实现AI外呼系统，用于招聘场景，提高招聘效率和候选人体验。</p>
+                    <a href="#" class="project-link">查看详情</a>
+                </div>
+                <div class="project-card" data-category="ai">
+                    <h3>智能客服搭建</h3>
+                    <p>搭建ToB智能客服系统"JoyApex"，提升客户服务效率和满意度。</p>
+                    <a href="#" class="project-link">查看详情</a>
+                </div>
+                <div class="project-card" data-category="ai">
+                    <h3>AI产品中心Π数字员工</h3>
+                    <p>设计并实现AI数字员工系统，自动化处理日常工作任务，提高工作效率。</p>
+                    <a href="#" class="project-link">查看详情</a>
+                </div>
+                <div class="project-card" data-category="product">
+                    <h3>产品设计</h3>
+                    <p>产品设计相关项目，内容待添加。</p>
+                    <a href="#" class="project-link">查看详情</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能展示模块 -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>我的技能</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>设计能力</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">用户体验设计</span>
+                        <span class="skill-tag">交互设计</span>
+                        <span class="skill-tag">原型设计</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Sketch</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>产品思维</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">数据分析</span>
+                        <span class="skill-tag">用户研究</span>
+                        <span class="skill-tag">产品规划</span>
+                        <span class="skill-tag">A/B测试</span>
+                        <span class="skill-tag">敏捷开发</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI 产品能力</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AIGC 产品设计</span>
+                        <span class="skill-tag">智能客服</span>
+                        <span class="skill-tag">数字员工</span>
+                        <span class="skill-tag">AI外呼</span>
+                        <span class="skill-tag">机器学习应用</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 周鑫. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <!-- 弹窗 -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>亲爱的，直接加Jensen微信问吧，反正二维码都已经发你啦~ 😊</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
